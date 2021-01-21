@@ -32,6 +32,9 @@
 .col-1{
   height: 100px;
   width: 100%;
+  background-image: url(../img/logo.png);
+  background-size: 140px 50px;
+  background-repeat: no-repeat;
 }
 
 .col-2{
@@ -56,13 +59,13 @@
   margin-top: 25px;
 }
 
-.col-6{
+.col-7{
   width: 24%;
   height: 350px;
   margin-top: 25px;
 }
 
-.col-7{
+.col-6{
   width: 50%;
   height: 350px;
   margin-top: 25px;
@@ -89,13 +92,18 @@ p{
   color: grey;
 }
 
+span{
+  text-align: center;
+  display: block;
+}
+
+
+}
 
 /* UTILITY BACKGROUND */
 
 .logo{
-  background-image: url(../img/logo.png);
-  background-size: 140px 50px;
-  background-repeat: no-repeat;
+
 }
 
 .cover1{
@@ -104,23 +112,21 @@ p{
 
 }
 
-/* .bg-blue{
-  background-color: rgb(1, 134, 255);
-} */
-
 
 .cover-col-5{
   background-image: url(../img/img-1.jpg);
   background-repeat: no-repeat;
   background-size: 100% 50%;
-  display: block;
-
 }
 
-.bg-light{
-  background-color: rgb(171, 207, 231);
+.cover-col-6{
+  background-image: url(../img/banner-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 47%;
 }
 
-.bg-purple{
-  background-color: rgb(136, 1, 254);
+.cover-col-7{
+  background-image: url(../img/img-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
 }
