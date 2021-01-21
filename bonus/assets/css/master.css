@@ -32,9 +32,6 @@
 .col-1{
   height: 100px;
   width: 100%;
-  background-image: url(../img/logo.png);
-  background-size: 140px 50px;
-  background-repeat: no-repeat;
 }
 
 .col-2{
@@ -97,19 +94,22 @@ span{
   display: block;
 }
 
-
+#cuore{
+  color: red;
+  display: inline;
 }
 
 /* UTILITY BACKGROUND */
 
 .logo{
-
+  background-image: url(../img/logo.png);
+  background-size: 140px 50px;
+  background-repeat: no-repeat;
 }
 
 .cover1{
   background-image: url(../img/banner.jpg);
   background-size: contain;
-
 }
 
 
