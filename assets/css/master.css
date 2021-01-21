@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+[class^="col-"]{
+  float: left;
+}
+
+.row{
+  margin: 5% 20%;
+  height: 100px;
+}
+
+.row:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.col-1{
+  height: 100px;
+  width: 100%;
+}
+
+.bg-pink{
+  background-color: rgb(229, 121, 230);
+}
